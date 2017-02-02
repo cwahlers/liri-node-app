@@ -1,0 +1,28 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "LIRI App",
+  "main": "liri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cwahlers/liri-node-app.git"
+  },
+  "keywords": [
+    "LIRI"
+  ],
+  "author": "Chris Wahlers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cwahlers/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/cwahlers/liri-node-app#readme",
+  "dependencies": {
+    "omdb": "^0.7.0",
+    "request": "^2.79.0",
+    "spotify": "^0.3.0",
+    "twitter": "^1.7.0"
+  }
+}
